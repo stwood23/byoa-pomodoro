@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Bomb</h1>
+        <div class="bomb">
+            <div class="bomb-body">
+                <div id="status-text">Work Time</div>
+                <div class="timer">
+                    <span id="minutes">25</span>:<span id="seconds">00</span>
+                </div>
+                <div class="controls">
+                    <button id="toggle-timer"><i class="fas fa-play"></i></button>
+                </div>
+            </div>
+        </div>
+        <button id="reset" class="reset-link">Reset Timer</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
